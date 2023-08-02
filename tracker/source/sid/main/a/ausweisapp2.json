@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ausweisapp2"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 12), libhttp-parser-dev, libpcsclite-dev, libqt6opengl6-dev, libqt6shadertools6-dev, libqt6svg6-dev, libqt6websockets6-dev, libssl-dev, libudev-dev, pkg-config, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, qt6-scxml-dev, qt6-tools-dev"
+  ],
+  "Checksums-Sha256": [
+    "f771e86dc0fd2ba8165922e43aa516e9100fe7fed4a153479be33f37cb7c1712 2137 ausweisapp2_1.26.6-1.dsc 2c87b48cc82eb1d926a92b11b5ac3c9038f4e559dd01296d9fad903b3db1c96f 11707590 ausweisapp2_1.26.6.orig.tar.gz 5778a1ad427b12c782273532d0c69608bad6d34bd4ed3ecb7c1023ed36516ec0 7864 ausweisapp2_1.26.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/ausweisapp2"
+  ],
+  "Files": [
+    "b287457262c1b37e39096272341beaf2 2137 ausweisapp2_1.26.6-1.dsc 26151028355ffc1bd3a2262ec3bef8d6 11707590 ausweisapp2_1.26.6.orig.tar.gz 71f67dde241e2deeebc938d89ded0c33 7864 ausweisapp2_1.26.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.ausweisapp.bund.de"
+  ],
+  "Maintainer": [
+    "John Paul Adrian Glaubitz \u003cglaubitz@physik.fu-berlin.de\u003e"
+  ],
+  "Package": [
+    "ausweisapp2"
+  ],
+  "Package-List": [
+    "ausweisapp2 deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ausweisapp2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ausweisapp2.git"
+  ],
+  "Version": [
+    "1.26.6-1"
+  ]
+}

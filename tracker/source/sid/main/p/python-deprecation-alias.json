@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-deprecation-alias"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-deprecation, python3-packaging, pybuild-plugin-pyproject, python3-coverage \u003c!nocheck\u003e, python3-importlib-metadata \u003c!nocheck\u003e, python3-iniconfig \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4b04af17be46c309ceb594300c1d88f61c23fbf9769ce582048b961599193c39 2426 python-deprecation-alias_0.3.2-1.dsc fd51853cda21ae78f2cefac10c33d7a6a91dd8f9e2819bce4d9d795be3eb1ad1 29028 python-deprecation-alias_0.3.2.orig.tar.gz 922f9b24b9ead5d94131329b492aa29915c7b853298226a253c99c1952b188da 1912 python-deprecation-alias_0.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-deprecation-alias"
+  ],
+  "Files": [
+    "46d522b1a1bb5160a998ddd01d20ec75 2426 python-deprecation-alias_0.3.2-1.dsc 902bd308f146e60ccc9690835b0f9ee7 29028 python-deprecation-alias_0.3.2.orig.tar.gz 8af17aaf91444eb655433604a3d49e4b 1912 python-deprecation-alias_0.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/domdfcoding/deprecation-alias"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-deprecation-alias"
+  ],
+  "Package-List": [
+    "python3-deprecation-alias deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-deprecation-alias"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-deprecation-alias.git"
+  ],
+  "Version": [
+    "0.3.2-1"
+  ]
+}

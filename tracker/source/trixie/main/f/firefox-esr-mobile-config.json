@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "firefox-esr-mobile-config"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "3373ec58894e198f66632739d59d49f2dd0063d2c8c50c0823dd9514f6aa3098 2185 firefox-esr-mobile-config_4.0.3-1.dsc 1289b7d36223e6fe13a36e4ebcf6b4f6e1e6972b4744386f612292b000f305f7 22384 firefox-esr-mobile-config_4.0.3.orig.tar.gz aec3009f3d8f215491b9a466735e0ffaabe83c7609ee6a2ef4f4b9cde416529f 4792 firefox-esr-mobile-config_4.0.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/firefox-esr-mobile-config"
+  ],
+  "Files": [
+    "dbb323c3ed90281e1585f0c09258f5b3 2185 firefox-esr-mobile-config_4.0.3-1.dsc e9bcac17804a7921e0fdc212e671cf69 22384 firefox-esr-mobile-config_4.0.3.orig.tar.gz 3f10860f42fa07e4530bb12af67d4971 4792 firefox-esr-mobile-config_4.0.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/postmarketOS/mobile-config-firefox"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "firefox-esr-mobile-config"
+  ],
+  "Package-List": [
+    "firefox-esr-mobile-config deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jarrah Gosbell \u003cdebian@undef.tools\u003e, Arnaud Ferraris \u003caferraris@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/firefox-esr-mobile-config"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/firefox-esr-mobile-config.git"
+  ],
+  "Version": [
+    "4.0.3-1"
+  ]
+}

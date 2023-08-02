@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "js-of-ocaml, libjs-of-ocaml-dev, libjs-of-ocaml, libjs-of-ocaml-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, ocaml-odoc \u003c!nodoc\u003e, ocaml-dune (\u003e= 2.5), ocaml-findlib, libfindlib-ocaml-dev, libgraphics-ocaml-dev, libcmdliner-ocaml-dev, libppxlib-ocaml-dev (\u003e= 0.15.0), libyojson-ocaml-dev, libuchar-ocaml-dev, liblwt-ocaml-dev, liblwt-log-ocaml-dev, libtyxml-ocaml-dev (\u003e= 4.3), libreactivedata-ocaml-dev (\u003e= 0.2), libsedlex-ocaml-dev, menhir, libmenhir-ocaml-dev, rsync, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "92498ea6a1c52093f6014c8740868b29810437fe065a43b121eb351e01819bf1 2312 js-of-ocaml_5.4.0-1.dsc c7c230738828c0f93982653975c5ca1c574ba76d628599fac3018c2a45f75d42 1944795 js-of-ocaml_5.4.0.orig.tar.gz d44434dcacc801e9d1386f857c700ba07df5c7637fffed8f0d1b32029cd918c5 5872 js-of-ocaml_5.4.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "519ecf6c48e414e1e79bb0398821620d13129fb2 debian archive/debian/5.4.0-1 https://git.dgit.debian.org/js-of-ocaml"
+  ],
+  "Directory": [
+    "pool/main/j/js-of-ocaml"
+  ],
+  "Files": [
+    "693025760f6a1ab0172578273220d349 2312 js-of-ocaml_5.4.0-1.dsc 2b8b4db34f66fa27e0e1a6af5c469612 1944795 js-of-ocaml_5.4.0.orig.tar.gz bb5844611ce447ad54cd8977fba8cad7 5872 js-of-ocaml_5.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ocsigen.org/js_of_ocaml"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "js-of-ocaml"
+  ],
+  "Package-List": [
+    "js-of-ocaml deb ocaml optional arch=any libjs-of-ocaml deb ocaml optional arch=any libjs-of-ocaml-dev deb ocaml optional arch=any libjs-of-ocaml-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/js-of-ocaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/js-of-ocaml.git"
+  ],
+  "Version": [
+    "5.4.0-1"
+  ]
+}

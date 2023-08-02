@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libglibmm-2.68-1, libglibmm-2.68-dev, libglibmm-2.68-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, doxygen, glib-networking \u003c!nocheck\u003e, graphviz, xsltproc, libglib2.0-dev (\u003e= 2.71.2), libsigc++-3.0-dev, libxml-parser-perl \u003c!nodoc\u003e, meson (\u003e= 0.55.0), pkg-config, mm-common (\u003e= 0.9.10)"
+  ],
+  "Checksums-Sha256": [
+    "3c7a367331dad173d87ae625e67eb81998c3245f1993a05ed8f725e7a092b625 2389 glibmm2.68_2.76.0-6.dsc 2591e77c597157156042ebd2e0577466310e77f42bbe76f5601accf1cbc46325 1127080 glibmm2.68_2.76.0.orig.tar.xz 57f686da235dbaa06679d589b922f464e5d713b0aa28e1c215c41a0e6534b4b7 54040 glibmm2.68_2.76.0-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/glibmm2.68"
+  ],
+  "Files": [
+    "7a8f1b186dc477f2732e2662c0b94934 2389 glibmm2.68_2.76.0-6.dsc f2d2f3601ad1cc9aa79387f9cc93ed65 1127080 glibmm2.68_2.76.0.orig.tar.xz 3589aa48ae027d644d30ee04ca1e3631 54040 glibmm2.68_2.76.0-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gtkmm.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "glibmm2.68"
+  ],
+  "Package-List": [
+    "libglibmm-2.68-1 deb libs optional arch=any libglibmm-2.68-dev deb libdevel optional arch=any libglibmm-2.68-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, g++"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/glibmm2.68"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/glibmm2.68.git"
+  ],
+  "Version": [
+    "2.76.0-6"
+  ]
+}

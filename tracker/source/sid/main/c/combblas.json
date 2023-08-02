@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libcombblas-dev, libcombblas2.0.0, libcombblas-docs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake (\u003e= 3.3), mpi-default-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha256": [
+    "21f6b5aa761853bcb1f5775f21ae0cd78f3122c713c2b8e9decd2fa75e4f0e1f 2252 combblas_2.0.0-2.dsc 3f955db1c0ec351713d88affd37f3fbb70b3bb3970527c04ed9e507057156afe 43777234 combblas_2.0.0.orig.tar.gz 603a795ec9b12a99de672b9a2fe0c411efb77595ad445dc63eb78dd5a6080b4d 33748060 combblas_2.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/combblas"
+  ],
+  "Files": [
+    "23d139f134642273dffe575d55bce4d4 2252 combblas_2.0.0-2.dsc 346d92b3ea85c4932793da48ce93a05d 43777234 combblas_2.0.0.orig.tar.gz d30fb292265d81b5100b7355b67e6897 33748060 combblas_2.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://people.eecs.berkeley.edu/~aydin/CombBLAS/html/index.html"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "combblas"
+  ],
+  "Package-List": [
+    "libcombblas-dev deb libdevel optional arch=any libcombblas-docs deb libdevel optional arch=all libcombblas2.0.0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/combblas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/combblas.git"
+  ],
+  "Version": [
+    "2.0.0-2"
+  ]
+}

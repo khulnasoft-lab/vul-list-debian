@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libtalloc2, libtalloc-dev, python3-talloc, python3-talloc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, docbook-xml, docbook-xsl, xsltproc, libpopt-dev, python3-dev:any | python3-dev, libpython3-dev"
+  ],
+  "Checksums-Sha256": [
+    "002eb2118fc3d4d7d572216e1ba8ff599852bb71c7c6083299195360833d6358 1945 talloc_2.4.1-1.dsc 410a547f08557007be0e88194f218868358edc0ab98c98ba8c167930db3d33f9 679160 talloc_2.4.1.orig.tar.gz 8f5211f5655afb951844a300cca6d47199f1b112853f636384cc1a2a1643252f 15068 talloc_2.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/talloc"
+  ],
+  "Files": [
+    "3205402dd7cd3eafd653effbe83c600e 1945 talloc_2.4.1-1.dsc b0f40831552f8dca770048f7040fefe1 679160 talloc_2.4.1.orig.tar.gz d2bdba3587960bca93aa07d1fec3646b 15068 talloc_2.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://talloc.samba.org/"
+  ],
+  "Maintainer": [
+    "Debian Samba Maintainers \u003cpkg-samba-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "talloc"
+  ],
+  "Package-List": [
+    "libtalloc-dev deb libdevel optional arch=any libtalloc2 deb libs optional arch=any python3-talloc deb python optional arch=any python3-talloc-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e, Mathieu Parent \u003csathieu@debian.org\u003e, Michael Tokarev \u003cmjt@tls.msk.ru\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/samba-team/talloc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/samba-team/talloc.git"
+  ],
+  "Version": [
+    "2.4.1-1"
+  ]
+}

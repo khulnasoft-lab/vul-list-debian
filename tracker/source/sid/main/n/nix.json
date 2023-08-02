@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "nix-bin, nix-setup-systemd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf-archive, bison, curl, flex, jq, libacl1-dev, libarchive-dev, libboost-dev, libboost-context-dev, libboost-system-dev, libboost-thread-dev, libbrotli-dev, libbsd-dev, libbz2-dev, libcpuid-dev [amd64 i386], libcurl4-gnutls-dev, libdbd-sqlite3-perl, libgc-dev, libgmock-dev, libgnutls28-dev, libgtest-dev, libidn2-dev, libkrb5-dev, libldap2-dev, liblowdown-dev, liblz4-dev, liblzma-dev, libnghttp2-dev, libpsl-dev, librapidcheck-dev, libreadline-dev, librtmp-dev, libseccomp-dev, libssh2-1-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libtoml11-dev, libwww-curl-perl, libxml2-dev, libxml2-utils, libzstd-dev, lowdown, nettle-dev, nlohmann-json3-dev, pkg-config, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "63d3e941f3e79b1504a3488764dc31a36b0d2a15c40265579d6d2c845dc03a6c 2636 nix_2.16.1+dfsg-2.dsc 8864e9f2c6d578d01cb1b77923c7bb8dcfcc525008a6c27450a0655acc5663c9 909452 nix_2.16.1+dfsg.orig.tar.xz 6d16aa21e7dd0b47f93663ba73478a80ebd94bdb5a57ff867bcdb87e4ce12f65 14532 nix_2.16.1+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nix"
+  ],
+  "Files": [
+    "e4d4e9e937d8df91e9ba6e52b986d8a2 2636 nix_2.16.1+dfsg-2.dsc cede28f208aea7b5728420954710ee43 909452 nix_2.16.1+dfsg.orig.tar.xz ae524fd8fbb2bd56f1aaa8693640b62a 14532 nix_2.16.1+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nixos.org/nix"
+  ],
+  "Maintainer": [
+    "Jordan Justen \u003cjljusten@debian.org\u003e"
+  ],
+  "Package": [
+    "nix"
+  ],
+  "Package-List": [
+    "nix-bin deb devel optional arch=any nix-setup-systemd deb devel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, make, systemd"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/nix"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/nix.git"
+  ],
+  "Version": [
+    "2.16.1+dfsg-2"
+  ]
+}

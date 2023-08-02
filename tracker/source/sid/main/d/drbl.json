@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "drbl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "7dc777ae769f76b9e8fcb3c0b83300cbe948eca097b6b884e451d6ccb601a3da 1789 drbl_5.2.18-1.dsc 78d37690b87485946f59bb33a1361932f7ac3b35d6966ac7f44d45a122a10979 2140393 drbl_5.2.18.orig.tar.gz 91d8b1e2d998471453e23a06b55266dfdcf69fc07cbe19edbc1b9425721b2c43 9412 drbl_5.2.18-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/drbl"
+  ],
+  "Files": [
+    "536aa49bf969df6e2627f0d198b890ee 1789 drbl_5.2.18-1.dsc 46a57622a95af7598b52931b5986fed4 2140393 drbl_5.2.18.orig.tar.gz fc89773d3b52c66753be2c505a303cf3 9412 drbl_5.2.18-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://drbl.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Package": [
+    "drbl"
+  ],
+  "Package-List": [
+    "drbl deb admin extra arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/georgesk/drbl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/georgesk/drbl.git"
+  ],
+  "Version": [
+    "5.2.18-1"
+  ]
+}

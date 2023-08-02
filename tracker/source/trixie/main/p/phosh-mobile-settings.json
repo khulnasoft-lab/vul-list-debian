@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "phosh-mobile-settings"
+  ],
+  "Build-Depends": [
+    "appstream, debhelper-compat (= 13), desktop-file-utils, libadwaita-1-dev, libgsound-dev, libgtk-4-dev, libsensors-dev, meson, phosh-dev (\u003e= 0.23.0)"
+  ],
+  "Checksums-Sha256": [
+    "6191fef6350dcc140e4ff775b29f00e2ded0c83b12172dbe0354020dac754eaa 2257 phosh-mobile-settings_0.29.0-1.dsc 146fcd1bc790f6d9baf9894d38018a3949e3da7642229cfe1caad3cfea089cb5 173107 phosh-mobile-settings_0.29.0.orig.tar.gz 4956ab6910e35d0f7f8e26d6177243490ee5fa17a2d2055e54fb32fe861ef002 3940 phosh-mobile-settings_0.29.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phosh-mobile-settings"
+  ],
+  "Files": [
+    "da71802c1bd4a74f3a110781f56b943a 2257 phosh-mobile-settings_0.29.0-1.dsc 59d32b6beb71239207bcc1887cc33c53 173107 phosh-mobile-settings_0.29.0.orig.tar.gz fc8ded00564272fe88642c67b6f0b85c 3940 phosh-mobile-settings_0.29.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/guidog/phosh-mobile-settings/"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "phosh-mobile-settings"
+  ],
+  "Package-List": [
+    "phosh-mobile-settings deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/phosh-mobile-settings"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/phosh-mobile-settings.git"
+  ],
+  "Version": [
+    "0.29.0-1"
+  ]
+}

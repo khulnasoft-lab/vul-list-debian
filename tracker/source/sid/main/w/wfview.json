@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "wfview"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libeigen3-dev, libhidapi-dev, libopus-dev, libqcustomplot-dev, libqt5gamepad5-dev, libqt5multimedia5, libqt5multimedia5-plugins, libqt5serialport5-dev, librtaudio-dev, libudev-dev, portaudio19-dev, qtbase5-dev, qtmultimedia5-dev"
+  ],
+  "Checksums-Sha256": [
+    "b889406f519fb4c5a546f6aa4b86bd8992835196cb9ec091c54e67a9c6878993 2113 wfview_1.64-1.dsc 097dfcee6383c7332cf479f28e937fc34a837ba8bcc498c1898bcd92b8342310 4839427 wfview_1.64.orig.tar.gz c896bc17aa7d16d1f5807c0f0198422ffcf44cd820be477c69b7f375a28a9eae 4960 wfview_1.64-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wfview"
+  ],
+  "Files": [
+    "ff0c4c351982cdd26307416f1b75bfc2 2113 wfview_1.64-1.dsc c061bd43bbe645874e053154666deb21 4839427 wfview_1.64.orig.tar.gz 2f2cf6f10ca81f46d55919732ccefbf6 4960 wfview_1.64-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wfview.org/"
+  ],
+  "Maintainer": [
+    "Debian Hamradio Maintainers \u003cdebian-hams@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "wfview"
+  ],
+  "Package-List": [
+    "wfview deb hamradio optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/wfview"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/wfview.git"
+  ],
+  "Version": [
+    "1.64-1"
+  ]
+}

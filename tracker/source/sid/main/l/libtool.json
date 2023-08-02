@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libtool, libtool-bin, libtool-doc, libltdl7, libltdl-dev"
+  ],
+  "Build-Conflicts": [
+    "automake1.9, gcj-jdk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), file, gfortran | fortran95-compiler, automake (\u003e= 1:1.14.1-3), autoconf (\u003e= 2.69-7), help2man, texinfo, zlib1g-dev, gnulib, libltdl-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6bb0770dc9c58dd255050eea15ee3526b263320e91f47ac5cedc2e2c0e3d2c3f 2257 libtool_2.4.7-6.dsc dd637e270439b208907ceead3f163470ed2ce5723ef97ffbda6463c64b57128a 1026028 libtool_2.4.7.orig.tar.xz 8994007979dbdfd14c09cf3c27aa38995f1357165bf21b7e22353b5b7c2ff890 40868 libtool_2.4.7-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libt/libtool"
+  ],
+  "Files": [
+    "dbc6f84e52cee4a4a7f34305ff1cc5e8 2257 libtool_2.4.7-6.dsc 8d5260fed7d8f9bb6aac3999d43e8d92 1026028 libtool_2.4.7.orig.tar.xz e5a5bec8de937c7cdd3914d1722d25b0 40868 libtool_2.4.7-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/libtool/"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "libtool"
+  ],
+  "Package-List": [
+    "libltdl-dev deb libdevel optional arch=any libltdl7 deb libs optional arch=any libtool deb devel optional arch=all libtool-bin deb devel optional arch=any libtool-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/mckinstry/libtool.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org:/mckinstry/libtool.git -b debian/latest"
+  ],
+  "Version": [
+    "2.4.7-6"
+  ]
+}

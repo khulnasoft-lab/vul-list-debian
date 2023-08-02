@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-gsva"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-s4vectors, r-bioc-iranges, r-bioc-biobase, r-bioc-summarizedexperiment, r-bioc-gseabase, r-cran-matrix (\u003e= 1.5-0), r-bioc-biocparallel, r-bioc-singlecellexperiment, r-bioc-sparsematrixstats, r-bioc-delayedarray, r-bioc-delayedmatrixstats, r-bioc-hdf5array, r-bioc-biocsingular"
+  ],
+  "Checksums-Sha256": [
+    "257b9b5b75d40d46bbb9a4e92d5c27ba7471733b1a5502b8f7ebe3cda1d5ee9c 2401 r-bioc-gsva_1.48.2+ds-1.dsc 7888dd1f8c77d96d846094d47abccef10e5ffd347296976275fd2262493b8c45 1228016 r-bioc-gsva_1.48.2+ds.orig.tar.xz 995f4d876885949b0772b2d5e50988b07792276b53c617efe18f1fbaffff8728 3904 r-bioc-gsva_1.48.2+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-gsva"
+  ],
+  "Files": [
+    "de0832f1f9d87291fc9782a0c3eb540b 2401 r-bioc-gsva_1.48.2+ds-1.dsc f8ad55fd5e859a8ee75fae725ec5dff7 1228016 r-bioc-gsva_1.48.2+ds.orig.tar.xz a64a39c012b08f2bff358eb6c3d00867 3904 r-bioc-gsva_1.48.2+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/GSVA/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-gsva"
+  ],
+  "Package-List": [
+    "r-bioc-gsva deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-fastmatch, r-cran-runit"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-gsva"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-gsva.git"
+  ],
+  "Version": [
+    "1.48.2+ds-1"
+  ]
+}

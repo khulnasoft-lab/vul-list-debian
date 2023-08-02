@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "forensics-extra, forensics-extra-gui, forensics-full"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5f3394a9a95732c8a8bcb183e787ab61b87732accf5ff29640342648ba1aa97b 1888 forensics-extra_2.48.dsc f25dae18778e9776d5aecbd250060a78d78905326a4093f5c9c68dbecb999a7b 24756 forensics-extra_2.48.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/forensics-extra"
+  ],
+  "Files": [
+    "e1a626d8af48e818891f36e1fb50d280 1888 forensics-extra_2.48.dsc 7410b782addd96670334cc32719741f7 24756 forensics-extra_2.48.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "forensics-extra"
+  ],
+  "Package-List": [
+    "forensics-extra deb metapackages optional arch=all forensics-extra-gui deb metapackages optional arch=all forensics-full deb metapackages optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Giovani Augusto Ferreira \u003cgiovani@debian.org\u003e, Joao Eriberto Mota Filho \u003ceriberto@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/forensics-extra"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/forensics-extra.git"
+  ],
+  "Version": [
+    "2.48"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmovit-dev, libmovit8"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10.0.0), autotools-dev, libfftw3-dev, libepoxy-dev, libeigen3-dev, libgtest-dev, libsdl2-dev"
+  ],
+  "Checksums-Sha256": [
+    "8b37505864bcf70c3501704930d0feaf87ca8ed0bbe4e82f3c6db30f89f10c4a 1831 movit_1.7.0-1.dsc 23597b93ea53762d44df763ecc2b702308f76fc17382099e9385220081ce6610 606989 movit_1.7.0.orig.tar.gz 316b5a7ee9c2a709d7e5ac91bbc562af004e56626df940396ab487918610e981 4024 movit_1.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/movit"
+  ],
+  "Files": [
+    "b26b9ef008ebf4eb4c13d9f7caa84d49 1831 movit_1.7.0-1.dsc edc3bd3444e3ac3c7e63273df71e6bcc 606989 movit_1.7.0.orig.tar.gz 3c5094ce3c161212b82c23e586a3d2d9 4024 movit_1.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://movit.sesse.net/"
+  ],
+  "Maintainer": [
+    "Steinar H. Gunderson \u003csesse@debian.org\u003e"
+  ],
+  "Package": [
+    "movit"
+  ],
+  "Package-List": [
+    "libmovit-dev deb libdevel optional arch=any libmovit8 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "3.9.6"
+  ],
+  "Version": [
+    "1.7.0-1"
+  ]
+}
